@@ -1,0 +1,38 @@
+body::before {
+    display: block;
+    content: "";
+    height: 60px;
+}
+
+@media (min-width: 768px){
+    .number-input {
+        width: 25%;
+    }
+}
+
+.sidebar {
+    width: 100px;
+    /* height: 100vh; */
+    /* margin-left: -300px; */
+    position: fixed;
+    /* transition: 0.4s; */
+    /* background-color: aqua; */
+}
+
+/* .nav-link {
+    font-size: 1.5em;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+    background-color: aliceblue;
+} */
+
+.introduction {
+    margin-left: 150px;
+}
+
+.product {
+    margin-left: 200px;
+}
